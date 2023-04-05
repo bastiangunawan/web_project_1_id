@@ -223,7 +223,7 @@
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
-  color: blue;
+  color: #2f80ed;
   text-decoration: none;
   z-index: 1;
 }
@@ -330,12 +330,12 @@
   justify-content: space-between;
 }
 
-.logo-footer{
+.logo_place_footer{
   width: 183px;
   height: 35px;
 }
 
-.content_author{
+.footer__column_content_author{
   color: white;
   height: fit-content;
   font-size: 18px;
@@ -361,6 +361,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footer__column_content_social{
